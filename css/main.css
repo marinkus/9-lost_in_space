@@ -9,6 +9,7 @@ header {
 }
  header > a {
      width: 60%;
+     float: left;
  }   
 header img {
         width: 32px;
@@ -16,7 +17,6 @@ header img {
     }
     nav {
         width: 40%;
-        margin-left: 400px;
         float: left;
     }
     nav > a {
@@ -35,7 +35,7 @@ main {
 }
 main div {
     float: left;
-    width: 40%;
+    width: 50%;
 }
 main > div > h1 {
     color: #222222;
@@ -74,7 +74,7 @@ main > div > a {
     margin-right: 15px;
 }
 main > img {
-    width: 40%;
+    width: 50%;
     float: left;
 }
 footer {
@@ -84,7 +84,7 @@ footer {
         display: inline-block;
 }
 footer div {
-    width: 60%;
+    width: 70%;
     float: left;
 }
 footer img {
@@ -92,7 +92,7 @@ footer img {
     padding: 4px;
 }
 footer p {
-    width: 40%;
+    width: 30%;
     float: left;
     font-size: 14px;
     font-weight: bold;
