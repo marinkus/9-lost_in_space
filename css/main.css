@@ -1,23 +1,38 @@
 header {
-        width: 800px;
+        width: 80%;
         margin: auto;
-        background-color: yellow;
+        background-color: aqua;
+        display: inline-block;
 }
     header > img {
+        width: 32px;
+        float: left;
+    }
+    nav {
+        width: 60%;
+        margin-left: 400px;
     }
     nav > a {
         text-decoration: none;
-        font-size: 20px;
+        font-size: 15px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-weight: 400;
+        color: #666666;
+        padding-left: 35px;
     }
 main {
-        width: 800px;
+        width: 80%;
         margin: auto;
         background-color: green;
 }
+main > hr {
+    size: 8px; 
+    width: 30%;
+    color: #55337A;
+    border-radius: 20px;
+}
 footer {
-      width: 800px;
+      width: 80%;
         margin: auto;
       background-color: red;
 }
