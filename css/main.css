@@ -7,13 +7,17 @@ header {
         margin-bottom: 70px;
         display: inline-block;
 }
-    header > img {
+ header > a {
+     width: 60%;
+ }   
+header img {
         width: 32px;
         float: left;
     }
     nav {
-        width: 60%;
+        width: 40%;
         margin-left: 400px;
+        float: left;
     }
     nav > a {
         text-decoration: none;
@@ -67,12 +71,29 @@ main > div > a {
     border-radius: 25px;
     text-decoration: none;
     float: left;
+    margin-right: 15px;
 }
 main > img {
     width: 40%;
     float: left;
 }
 footer {
-      width: 70%;
-        margin: auto;
+        width: 70%;
+        margin-top: 10%;
+        margin-left: 15%;
+        display: inline-block;
+}
+footer div {
+    width: 60%;
+    float: left;
+}
+footer img {
+    width: 32px;
+    padding: 4px;
+}
+footer p {
+    width: 40%;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
 }
