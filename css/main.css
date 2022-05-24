@@ -3,9 +3,14 @@ header {
         margin: auto;
         background-color: yellow;
 }
-    img {}
-    nav {}
-    a {}
+    header > img {
+    }
+    nav > a {
+        text-decoration: none;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 400;
+    }
 main {
         width: 800px;
         margin: auto;
