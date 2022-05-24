@@ -4,6 +4,7 @@ body {
 header {
         width: 70%;
         margin-left: 15%;
+        margin-bottom: 70px;
         display: inline-block;
 }
     header > img {
@@ -28,28 +29,35 @@ main {
         width: 70%;
         margin-left: 15%;
 }
+main div {
+    float: left;
+    width: 40%;
+}
 main > div > h1 {
     color: #222222;
     font-size: 45px;
-    font-weight: 300;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 200;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 main > div > h2 {
     color: #222222;
     font-size: 45px;
     font-weight: 600;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-bottom: 5px;
+}
+main > div > hr {
+    border: 2px solid #55337A;
+    border-radius: 20px;
+    width: 70px;
+    float: left;
 }
 main > div > p {
     color: #AAAABB;
     font-size: 16px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-bottom: 50px;
-}
-main > hr {
-    border: 2px solid #55337A;
-    border-radius: 20px;
-    width: 50px;
+    float: left;
 }
 main > div > a {
     border: 2px solid #664488;
@@ -58,13 +66,10 @@ main > div > a {
     padding-right: 30px;
     border-radius: 25px;
     text-decoration: none;
-}
-main div {
     float: left;
-    width: 50%;
 }
 main > img {
-    width: 50%;
+    width: 40%;
     float: left;
 }
 footer {
