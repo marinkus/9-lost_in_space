@@ -14,12 +14,12 @@ footer {
      float: left;
  }   
 header img {
-        height: 40px;
+        height: 24px;
         float: left;
     }
     nav {
         float: right;
-        margin-top: 13px;
+        margin-top: 4px;
     }
     nav > a {
         float: left;
