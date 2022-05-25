@@ -25,7 +25,13 @@ header img {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-weight: 400;
         color: #666666;
-        padding-left: 35px;
+        padding-left: 17px;
+        padding-right: 17px;
+        border-radius: 10px;
+
+    }
+    nav > a:hover{
+        background-color: #AAAABB;
     }
 main {
         background-color: #ffffff;
