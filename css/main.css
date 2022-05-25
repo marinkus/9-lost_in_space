@@ -91,6 +91,7 @@ main > div > div > a {
     float: left;
     margin-right: 15px;
     text-transform: uppercase;
+    display: inline-block;
 }
 main > div > div > a:nth-child(1) {
     background-color: #664488; 
