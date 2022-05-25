@@ -43,19 +43,19 @@ header img {
     }
 main > div {
     float: left;
-    width: 50%;
+    width: 40%;
 }
 main > div > h1 {
     color: #222222;
-    font-size: 45px;
-    font-weight: 200;
+    font-size: 40px;
+    font-weight: 100;
     font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin-top: 60px;
     margin-bottom: 0px;
 }
 main > div > h2 {
     color: #222222;
-    font-size: 45px;
+    font-size: 40px;
     font-weight: 800;
     font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin-bottom: 5px;
@@ -64,12 +64,12 @@ main > div > h2 {
 main > div > hr {
     border: 2px solid #55337A;
     border-radius: 20px;
-    width: 70px;
+    width: 85px;
     float: left;
 }
 main > div > p {
     color: #AAAABB;
-    font-size: 16px;
+    font-size: 14px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-bottom: 60px;
     float: left;
@@ -100,7 +100,7 @@ main > div > a:hover {
     transition: 1s;
 }
 main > img {
-    width: 50%;
+    width: 60%;
     float: left;
 }
 footer {
