@@ -97,15 +97,15 @@ footer {
         margin-left: 15%;
         display: inline-block;
 }
-footer div {
+footer > div {
     width: 70%;
     float: left;
 }
-footer img {
+footer > div > a > img {
     width: 32px;
     padding: 4px;
 }
-footer p {
+footer > p {
     width: 30%;
     float: left;
     font-size: 14px;
