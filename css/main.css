@@ -1,5 +1,6 @@
 body {
     background-color: #ffffff;
+    margin-top: 5%;
 }
 header,
 main,
@@ -7,7 +8,7 @@ footer {
         width: 800px;
         margin-left: calc((100% - 800px) / 2);
         margin-right: calc((100% - 800px) / 2);
-        margin-bottom: 30px;
+        margin-bottom: 50px;
         display: inline-block;
 }
  header > a {
