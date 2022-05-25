@@ -74,7 +74,10 @@ main > div > p {
     margin-bottom: 60px;
     float: left;
 }
-main > div > a {
+main > div > div {
+    display: inline-block;
+}
+main > div > div > a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
     font-weight: 500;
@@ -88,14 +91,14 @@ main > div > a {
     margin-right: 15px;
     text-transform: uppercase;
 }
-main > div > a:nth-child(5) {
+main > div > div > a:nth-child(1) {
     background-color: #664488; 
     color: #FFFFFF;
 }
-main > div  > a:nth-child(6) { 
+main > div > div > a:nth-child(2) { 
     color: #664488;
 }
-main > div > a:hover {
+main > div > div > a:hover {
     background-color: #AAAABB!important;
     transition: 1s;
 }
