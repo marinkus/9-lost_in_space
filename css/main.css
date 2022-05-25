@@ -84,7 +84,8 @@ main > div > a {
     margin-right: 15px;
 }
 main > div > a:hover {
-    background-color: #AAAABB!important; 
+    background-color: #AAAABB!important;
+    transition: 1s;
 }
 main > img {
     width: 50%;
