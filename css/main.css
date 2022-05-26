@@ -68,6 +68,7 @@ main > div > hr {
     border-radius: 2px;
     background-color: #55337A;
     width: 85px;
+    margin-top: 0px;
     display: inline-block;
 }
 main > div > p {
@@ -117,9 +118,11 @@ footer > div {
 }
 footer > div > a {
     color: #AAAABB;
-    font-size: 14px;
-    margin-right: 15px;
+    font-size: 18px;
     text-decoration: none;
+}
+footer > div > a + a {
+    margin-left: 10px;
 }
 footer > p {
     float: right;
