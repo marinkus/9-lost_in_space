@@ -41,27 +41,26 @@ header img {
         background-color: #AAAABB;
         transition: 1.5s;
     }
-main > div {
+.left-column {
     float: left;
     width: 40%;
 }
-main > div > h1 {
+.headers {
     color: #222222;
     font-size: 40px;
-    font-weight: 100;
     font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.left-column > h1 {
+    font-weight: 100;
     margin-top: 60px;
     margin-bottom: 0px;
 }
-main > div > h2 {
-    color: #222222;
-    font-size: 40px;
+.left-column > h2 {
     font-weight: 800;
-    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin-bottom: 5px;
     margin-top: 0px;
 }
-main > div > hr {
+.left-column > hr {
     border: none;
     height: 4px;
     border-radius: 2px;
@@ -77,7 +76,7 @@ main > div > p {
     margin-bottom: 60px;
     float: left;
 }
-main > div > div {
+.buttons {
     display: inline-block;
 }
 .btn {
@@ -95,41 +94,38 @@ main > div > div {
     text-transform: uppercase;
     transition-duration: 1.2s;
 }
-.btn:nth-child(1) {
+.btn.btn1 {
     background-color: #664488; 
     color: #FFFFFF;
 }
-.btn:nth-child(2) { 
+.btn.btn2 { 
     color: #664488;
 }
 .btn:hover {
     background-color: #AAAABB;
     transition: 1s;
 }
-main > img {
+.container > img {
     width: 60%;
     float: left;
 }
-footer {
-    display: inline-block;
-}
-footer > div {
+.social-bar {
     float: left;
 }
-footer > div > a {
+.social-links {
     color: #AAAABB;
     font-size: 18px;
     text-decoration: none;
     transition-duration: 1.2s;
 }
-footer > div > a + a {
+.social-links + a {
     margin-left: 10px;
 }
-footer > div > a:hover {
+.social-links:hover {
     color: #55337A;
     transition: 0.5s;
 }
-footer > p {
+.copyright {
     float: right;
     color: #666666;
     font-size: 14px;
