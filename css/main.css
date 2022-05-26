@@ -116,14 +116,14 @@ footer > div {
     float: left;
 }
 footer > div > a {
-    margin-right: 5px;
-}
-footer > div > a > img {
-    width: 32px;
-    padding: 4px;
+    color: #AAAABB;
+    font-size: 14px;
+    margin-right: 15px;
+    text-decoration: none;
 }
 footer > p {
     float: right;
     font-size: 14px;
     font-weight: bold;
+    margin: 0;
 }
