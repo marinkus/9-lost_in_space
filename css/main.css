@@ -2,9 +2,7 @@ body {
     background-color: #ffffff;
     margin-top: 5%;
 }
-header,
-main,
-footer {
+.container {
         width: 800px;
         margin-left: calc((100% - 800px) / 2);
         margin-right: calc((100% - 800px) / 2);
@@ -18,11 +16,11 @@ header img {
         height: 24px;
         float: left;
     }
-    nav {
+    .menu {
         float: right;
         margin-top: 4px;
     }
-    nav > a {
+    .menu-links {
         float: left;
         text-decoration: none;
         font-size: 16px;
@@ -36,10 +34,10 @@ header img {
         border-radius: 10px;
         transition-duration: 1.2s;
     }
-    nav > a:nth-of-type(1) {
+    .menu-links:nth-of-type(1) {
         margin: 0;
     }
-    nav > a:hover{
+    .menu-links:hover{
         background-color: #AAAABB;
         transition: 1.5s;
     }
