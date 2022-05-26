@@ -9,10 +9,7 @@ body {
         margin-bottom: 50px;
         display: inline-block;
 }
- header > a {
-     float: left;
- }   
-header img {
+    .logo {
         height: 24px;
         float: left;
     }
