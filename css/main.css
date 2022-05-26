@@ -115,6 +115,9 @@ footer {
 footer > div {
     float: left;
 }
+footer > div > a {
+    margin-right: 5px;
+}
 footer > div > a > img {
     width: 32px;
     padding: 4px;
