@@ -20,7 +20,7 @@ header img {
         float: right;
         margin-top: 4px;
     }
-    .menu-links {
+    .menu a{
         float: left;
         text-decoration: none;
         font-size: 16px;
@@ -34,10 +34,10 @@ header img {
         border-radius: 10px;
         transition-duration: 1.2s;
     }
-    .menu-links:nth-of-type(1) {
+    .menu > a:nth-of-type(1) {
         margin: 0;
     }
-    .menu-links:hover{
+    .menu > a:hover{
         background-color: #AAAABB;
         transition: 1.5s;
     }
