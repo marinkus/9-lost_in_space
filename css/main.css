@@ -126,6 +126,7 @@ footer > div > a + a {
 }
 footer > p {
     float: right;
+    color: #666666;
     font-size: 14px;
     font-weight: bold;
     margin: 0;
