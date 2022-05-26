@@ -63,10 +63,12 @@ main > div > h2 {
     margin-top: 0px;
 }
 main > div > hr {
-    border: 2px solid #55337A;
-    border-radius: 20px;
+    border: none;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #55337A;
     width: 85px;
-    float: left;
+    display: inline-block;
 }
 main > div > p {
     color: #AAAABB;
